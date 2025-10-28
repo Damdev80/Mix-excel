@@ -65,7 +65,7 @@ class ExcelMixerApp:
         self.tolerance_field = ft.TextField(
             label="Tolerancia (%)",
             hint_text="5",
-            value="5",
+            value="5",  
             width=120,
             keyboard_type=ft.KeyboardType.NUMBER,
             border_radius=8,
